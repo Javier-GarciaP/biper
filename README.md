@@ -1,7 +1,7 @@
 # React Biper
 
 Imagen:
-![image](./website/public/screenshop.png)
+![](./website/public/screenshop.png)
 
 Librería de notificaciones (toasts) ultra ligera para React. Diseñada para ser minimalista, rápida y sin configuración tediosa.
 
