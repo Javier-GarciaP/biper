@@ -1,6 +1,6 @@
 export const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <main className="min-w-2xl p-2 text-gray-900 flex flex-col">
+        <main className="w-full max-w-4xl px-4 md:px-6 py-10 text-gray-900 flex flex-col">
             {children}
         </main>
     )

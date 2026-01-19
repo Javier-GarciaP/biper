@@ -1,4 +1,4 @@
-import { Layout } from "./components/Layaout"
+import { Layout } from "./components/Layout"
 import { Hero } from "./components/Hero"
 import { Installation } from "./components/Installation"
 import { Usage } from "./components/Usage"

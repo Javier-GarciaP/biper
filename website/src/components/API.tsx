@@ -4,8 +4,8 @@ import { OtherOptions } from "./OtherOptions";
 
 export const API = () => {
     return (
-        <section className="flex flex-col gap-4 border-l-4 border-gray-300 pl-4">
-            <h2 className="text-4xl font-black text-gray-800 font-mono">API</h2>
+        <section className="flex flex-col gap-6 md:border-l-4 md:border-gray-200 md:pl-8">
+            <h2 className="text-4xl md:text-5xl font-black text-gray-800 font-mono">API</h2>
             <div className="flex flex-col gap-16">
 
                 <Types />

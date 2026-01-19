@@ -29,15 +29,15 @@ function App() {
         <section className="flex flex-col gap-4">
             <h2 className="text-gray-800 font-mono text-4xl font-black">Como usar</h2>
 
-            <div className="relative group rounded-xl bg-gray-20 border-2 border-gray-100">
+            <div className="relative group rounded-2xl bg-white border-2 border-gray-100 shadow-sm overflow-hidden hover:border-gray-300 transition-all">
                 <div
-                    className="absolute right-4 top-4 p-2 rounded-md hover:bg-gray-100 cursor-pointer transition-colors"
+                    className="absolute right-4 top-4 p-2 rounded-lg bg-gray-50 hover:bg-gray-100 cursor-pointer transition-colors border border-transparent hover:border-gray-200 z-10"
                     onClick={handleCopy}
                 >
-                    <Copy width={15} className="text-gray-400 group-hover:text-gray-600" />
+                    <Copy width={16} height={16} className="text-gray-400 group-hover:text-gray-600" />
                 </div>
-                <pre className="p-5 overflow-x-auto selection:bg-blue-500/30">
-                    <code className="font-mono text-sm leading-relaxed text-gray-800 block">
+                <pre className="p-6 md:p-8 overflow-x-auto selection:bg-gray-800 selection:text-white">
+                    <code className="font-mono text-xs md:text-sm leading-relaxed text-gray-800 block">
                         {codeSnippet}
                     </code>
                 </pre>
