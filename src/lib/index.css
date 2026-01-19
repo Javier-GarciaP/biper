@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/* Animaciones elegantes para notificaciones */
+
+/* Desde la derecha */
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out-right {
+    from {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100%) scale(0.95);
+    }
+}
+
+/* Desde la izquierda */
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out-left {
+    from {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-100%) scale(0.95);
+    }
+}
+
+/* Desde arriba */
+@keyframes slide-in-top {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out-top {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-100%) scale(0.95);
+    }
+}
+
+/* Desde abajo */
+@keyframes slide-in-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out-bottom {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(100%) scale(0.95);
+    }
+}
+
+/* Clases de animación */
+.animate-slide-in-right {
+    animation: slide-in-right 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-out-right {
+    animation: slide-out-right 0.3s cubic-bezier(0.5, 0, 0.75, 0) forwards;
+}
+
+.animate-slide-in-left {
+    animation: slide-in-left 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-out-left {
+    animation: slide-out-left 0.3s cubic-bezier(0.5, 0, 0.75, 0) forwards;
+}
+
+.animate-slide-in-top {
+    animation: slide-in-top 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-out-top {
+    animation: slide-out-top 0.3s cubic-bezier(0.5, 0, 0.75, 0) forwards;
+}
+
+.animate-slide-in-bottom {
+    animation: slide-in-bottom 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-out-bottom {
+    animation: slide-out-bottom 0.3s cubic-bezier(0.5, 0, 0.75, 0) forwards;
+}
