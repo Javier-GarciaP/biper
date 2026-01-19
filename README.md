@@ -1,19 +1,13 @@
-# 🔔 React Biper
+# React Biper
 
 Librería de notificaciones (toasts) ultra ligera para React. Diseñada para ser minimalista, rápida y sin configuración tediosa.
 
-## ✨ ¿Por qué Biper?
-- 🔌 **Zero Config**: No necesitas importar archivos CSS manuales.
-- 🌍 **Global**: Úsalo dentro o fuera de componentes React (servicios API, utilidades, etc).
-- 🎨 **Minimalista**: Diseño limpio y profesional.
-- 🎯 **TypeScript**: Soporte nativo y completo.
-
-## 📦 Instalación
+## Instalación
 ```bash
 npm install react-biper
 ```
 
-## 🚀 Configuración rápida
+## Configuración rápida
 
 ### 1. Envolver tu App
 Solo agrega el `Toaster` en el punto más alto de tu aplicación:
@@ -47,7 +41,7 @@ toast.warning('Cuidado con esta acción');
 toast.info('Tienes un nuevo mensaje');
 ```
 
-## 📖 Opciones
+## Opciones
 Todos los métodos aceptan un segundo argumento opcional para personalizar el comportamiento:
 
 ```tsx
@@ -57,5 +51,5 @@ toast.success('Mensaje', {
 });
 ```
 
-## 📄 Licencia
+## Licencia
 MIT © José Javier García

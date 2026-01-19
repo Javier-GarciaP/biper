@@ -27,6 +27,14 @@ export const OtherOptions = () => {
         });
     }
 
+    const handleCopy = () => {
+        navigator.clipboard.writeText(code);
+        toast.info("Código copiado", {
+            position: "bottom-center",
+            duration: 2000
+        });
+    }
+
     return (
         <article className="flex flex-col gap-4">
             <h3 className="text-2xl font-black text-gray-700 font-mono">Otras Opciones</h3>
@@ -52,7 +60,12 @@ export const OtherOptions = () => {
                     <code className="font-mono text-sm leading-relaxed text-gray-800 block">
                         {code}
                     </code>
-                    <Copy width={15} className="hover:cursor-pointer" />
+                    <div
+                        className="p-2 rounded-md hover:bg-gray-100 cursor-pointer transition-colors"
+                        onClick={handleCopy}
+                    >
+                        <Copy width={15} className="text-gray-400 group-hover:text-gray-600" />
+                    </div>
                 </pre>
             </div>
         </article>

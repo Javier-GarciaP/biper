@@ -11,7 +11,7 @@ export const Hero = () => {
                 <button className="bg-gray-800 text-white px-4 py-2 rounded-md transition-transform duration-300 hover:scale-105 hover:cursor-pointer">Documentación</button>
             </div>
             <div className="mt-4 text-gray-500 hover:text-gray-800 transition-colors hover:cursor-pointer">
-                <a className="flex gap-2" href="">
+                <a className="flex gap-2" href="https://github.com/Javier-GarciaP/biper" target="_blank">
                     <Github />
                     <p>Repositorio del proyecto</p>
                 </a>
