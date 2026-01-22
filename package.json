@@ -1,6 +1,6 @@
 {
   "name": "react-biper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Una librería moderna y minimalista de notificaciones para React con animaciones elegantes y soporte completo para TypeScript",
   "keywords": [
     "react",
